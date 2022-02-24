@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 110px;
+}
+
+.thongbao{
+    height: 50px;
+    text-align: center;
+    background: #d3dedc;
+    color: black;
+    line-height: 40px;
+}
+
+.menu-logo{
+    /* height: 70px; */
+    position: relative;
+    background: #ededed;
+}
+
+.menu-logo .logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-logo nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu-logo nav a{
+    text-decoration: none;
+    color: #000;
+    margin: 0 30px;
+}
+.menu-logo nav a:hover{
+    color: #23a19c;
+    font-weight: bold;
+    transition: all .1s linear;
+}
+
+.banner{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.banner img{
+    max-width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    
+}
+.banner1 img{
+    max-width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+.product .heading{
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+.product .heading::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 5px;
+    background-color: #d3dedc;
+    top: 40px;
+    left: 47%;
+}
+.product .list-product .product-item{
+    width: 22%;
+    margin: 20px 20px;
+    display: inline-block;
+}
+.product .list-product .product-item img{
+    max-width: 100%;
+}
